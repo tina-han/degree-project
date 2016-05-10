@@ -1,0 +1,64 @@
+@font-face {
+    font-family: Fortescue;
+    src: url(Fortescue-Bold.otf);
+}
+
+body {
+  margin: 0;
+  font-family: 'Fortescue';
+}
+.title {
+  width: 100%;
+
+}
+.title table {
+  width: 100%;
+}
+.title td {
+  width: 33.333%;
+  height: 50px;
+}
+.grid-container{
+  width: 100%;
+}
+
+.col {
+  width: 18.5%;
+  padding: .75%;
+  background-color: white;
+  float: left;
+  min-height: 1px;
+}
+
+.entry {
+  overflow: hidden;
+  margin-bottom: 20px;
+  padding: 5%;
+  width: 90%;
+  background-size: cover;
+  -webkit-transition: .25s ease;
+  -moz-transition: .25s ease;
+}
+
+.outline {
+  outline: 2px solid #d9d9d9;
+}
+  .entry:hover .color{
+    opacity:1;
+  }
+
+  .date {
+    font-size: 13px;
+    color: #a6a6a6;
+    margin: .25em 0em .5em 0em;
+  }
+
+  .text {
+    font-size: 20px;
+    line-height: 1.5em;
+  }
+
+
+
+
+/*color page*/
